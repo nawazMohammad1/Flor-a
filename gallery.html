@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gallery | Floréa</title>
+
+  <meta name="description"
+    content="Explore the Floréa flower gallery featuring beautiful bouquets, elegant arrangements and thoughtful floral moments.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Shared CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Gallery CSS -->
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+         PRELOADER
+    ====================================================== -->
+
+  <div class="preloader" id="preloader">
+
+    <div class="preloader-inner">
+
+      <div class="preloader-flower">
+        <span>✿</span>
+      </div>
+
+      <div class="preloader-brand">
+        Flor<span>é</span>a
+      </div>
+
+      <div class="preloader-line">
+        <span></span>
+      </div>
+
+      <p>Preparing something beautiful...</p>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+         HEADER / NAVBAR
+    ====================================================== -->
+
+  <header class="header" id="header">
+
+    <nav class="navbar">
+
+      <a href="index.html" class="logo">
+
+        <span class="logo-flower">
+          <i class="fa-solid fa-seedling"></i>
+        </span>
+
+        <span class="logo-text">
+          Flor<span>é</span>a
+        </span>
+
+      </a>
+
+
+      <div class="nav-menu" id="navMenu">
+
+        <a href="index.html" class="nav-link">
+          Home
+        </a>
+
+        <a href="bouquets.html" class="nav-link">
+          Bouquets
+        </a>
+
+        <a href="occasion.html" class="nav-link">
+          Occasions
+        </a>
+
+        <a href="custom-orders.html" class="nav-link">
+          Custom Orders
+        </a>
+
+        <a href="about.html" class="nav-link">
+          About
+        </a>
+
+        <a href="contact.html" class="nav-link">
+          Contact
+        </a>
+
+        <a href="custom-orders.html" class="nav-order">
+          <i class="fa-regular fa-heart"></i>
+          Order Now
+        </a>
+
+      </div>
+
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </nav>
+
+  </header>
+
+
+  <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+  <main>
+
+
+    <!-- =================================================
+             GALLERY HERO
+        ================================================== -->
+
+    <section class="gallery-hero">
+
+      <div class="gallery-hero-glow glow-one"></div>
+      <div class="gallery-hero-glow glow-two"></div>
+
+
+      <div class="gallery-hero-content reveal">
+
+        <span class="gallery-eyebrow">
+          <i class="fa-solid fa-seedling"></i>
+          A little beauty to remember
+        </span>
+
+        <h1>
+          Moments in
+          <em>Bloom</em>
+        </h1>
+
+        <p>
+          Step into the world of Floréa and explore
+          bouquets, arrangements and floral moments
+          created with love, detail and a little magic.
+        </p>
+
+        <div class="gallery-hero-line">
+          <span></span>
+        </div>
+
+      </div>
+
+
+      <div class="gallery-hero-orbit orbit-left"></div>
+      <div class="gallery-hero-orbit orbit-right"></div>
+
+    </section>
+
+
+
+    <!-- =================================================
+             GALLERY INTRO
+        ================================================== -->
+
+    <section class="gallery-intro section-space">
+
+      <div class="gallery-container">
+
+        <div class="gallery-heading reveal">
+
+          <span class="mini-label">
+            Our Floral Journal
+          </span>
+
+          <h2>
+            Flowers tell stories
+            <em>without words.</em>
+          </h2>
+
+          <p>
+            From soft romantic bouquets to cheerful
+            everyday arrangements, every Floréa creation
+            is designed to make an ordinary moment feel
+            a little more special.
+          </p>
+
+        </div>
+
+
+        <div class="gallery-stats reveal">
+
+          <div class="gallery-stat">
+
+            <strong>01</strong>
+
+            <span>
+              Handpicked
+              <br>
+              Flowers
+            </span>
+
+          </div>
+
+
+          <div class="gallery-stat">
+
+            <strong>02</strong>
+
+            <span>
+              Thoughtful
+              <br>
+              Arrangements
+            </span>
+
+          </div>
+
+
+          <div class="gallery-stat">
+
+            <strong>03</strong>
+
+            <span>
+              Made With
+              <br>
+              Feeling
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+             FILTERS
+        ================================================== -->
+
+    <section class="gallery-showcase">
+
+      <div class="gallery-container">
+
+        <div class="gallery-filter-header reveal">
+
+          <div>
+
+            <span class="mini-label">
+              Explore the Collection
+            </span>
+
+            <h2>
+              Our <em>Gallery</em>
+            </h2>
+
+          </div>
+
+
+          <div class="gallery-filter" role="tablist" aria-label="Gallery categories">
+
+            <button class="gallery-filter-btn active" data-filter="all" type="button">
+              All
+            </button>
+
+            <button class="gallery-filter-btn" data-filter="bouquets" type="button">
+              Bouquets
+            </button>
+
+            <button class="gallery-filter-btn" data-filter="romantic" type="button">
+              Romantic
+            </button>
+
+            <button class="gallery-filter-btn" data-filter="celebration" type="button">
+              Celebrations
+            </button>
+
+            <button class="gallery-filter-btn" data-filter="everyday" type="button">
+              Everyday
+            </button>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =============================================
+                     GALLERY GRID
+                ============================================== -->
+
+        <div class="gallery-grid" id="galleryGrid">
+
+
+          <!-- IMAGE 1 -->
+
+          <article class="gallery-item gallery-item-large reveal" data-category="bouquets">
+
+            <button class="gallery-image-button" type="button" aria-label="View Soft Rose Bouquet"
+              data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq7J9bspG3M5hAdM8lcqfEwt3LS1k3wOYxiwLL9N6Npg&s=10"
+              data-title="Soft Rose Bouquet" data-category="Bouquets">
+
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq7J9bspG3M5hAdM8lcqfEwt3LS1k3wOYxiwLL9N6Npg&s=10"
+                alt="Soft pink flower bouquet" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Bouquets
+                  </small>
+
+                  <strong>
+                    Soft Rose Bouquet
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 2 -->
+
+          <article class="gallery-item reveal" data-category="romantic">
+
+            <button class="gallery-image-button" type="button" aria-label="View Blush Romance"
+              data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRApEo1HeXlbPVqpYNCTdsbldK0ri1fjLx5WJdy5iKStw&s=10"
+              data-title="Blush Romance" data-category="Romantic">
+
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRApEo1HeXlbPVqpYNCTdsbldK0ri1fjLx5WJdy5iKStw&s=10"
+                alt="Romantic blush flowers" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Romantic
+                  </small>
+
+                  <strong>
+                    Blush Romance
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 3 -->
+
+          <article class="gallery-item gallery-item-tall reveal" data-category="everyday">
+
+            <button class="gallery-image-button" type="button" aria-label="View Garden Morning"
+              data-image="https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=1000&q=85"
+              data-title="Garden Morning" data-category="Everyday">
+
+              <img src="https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=1000&q=85"
+                alt="Fresh garden flowers" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Everyday
+                  </small>
+
+                  <strong>
+                    Garden Morning
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 4 -->
+
+          <article class="gallery-item reveal" data-category="celebration">
+
+            <button class="gallery-image-button" type="button" aria-label="View Celebration Blooms"
+              data-image="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=1100&q=85"
+              data-title="Celebration Blooms" data-category="Celebrations">
+
+              <img src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=1100&q=85"
+                alt="Colorful celebration flower arrangement" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Celebrations
+                  </small>
+
+                  <strong>
+                    Celebration Blooms
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 5 -->
+
+          <article class="gallery-item reveal" data-category="bouquets">
+
+            <button class="gallery-image-button" type="button" aria-label="View Wildflower Story"
+              data-image="https://images.unsplash.com/photo-1455582916367-25f75bfc6710?auto=format&fit=crop&w=1100&q=85"
+              data-title="Wildflower Story" data-category="Bouquets">
+
+              <img src="https://images.unsplash.com/photo-1455582916367-25f75bfc6710?auto=format&fit=crop&w=1100&q=85"
+                alt="Wildflower bouquet" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Bouquets
+                  </small>
+
+                  <strong>
+                    Wildflower Story
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 6 -->
+
+          <article class="gallery-item gallery-item-large reveal" data-category="romantic">
+
+            <button class="gallery-image-button" type="button" aria-label="View Garden Romance"
+              data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSzlxuL5aSgOOWYr1p2VLyjdYyZWNZGMoac1dfHt8Rdg&s=10"
+              data-title="Garden Romance" data-category="Romantic">
+
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSzlxuL5aSgOOWYr1p2VLyjdYyZWNZGMoac1dfHt8Rdg&s=10"
+                alt="Romantic floral arrangement" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Romantic
+                  </small>
+
+                  <strong>
+                    Garden Romance
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 7 -->
+
+          <article class="gallery-item reveal" data-category="everyday">
+
+            <button class="gallery-image-button" type="button" aria-label="View Fresh Morning"
+              data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFEaBeaIe6WXfCupcDAdTcUXdcTnohND-P93KrYggfEQ&s=10"
+              data-title="Fresh Morning" data-category="Everyday">
+
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFEaBeaIe6WXfCupcDAdTcUXdcTnohND-P93KrYggfEQ&s=10"
+                alt="Fresh flowers arranged in a vase" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Everyday
+                  </small>
+
+                  <strong>
+                    Fresh Morning
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 8 -->
+
+          <article class="gallery-item reveal" data-category="celebration">
+
+            <button class="gallery-image-button" type="button" aria-label="View Celebration Garden"
+              data-image="https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1100&q=85"
+              data-title="Celebration Garden" data-category="Celebrations">
+
+              <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1100&q=85"
+                alt="Bright floral celebration arrangement" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Celebrations
+                  </small>
+
+                  <strong>
+                    Celebration Garden
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+
+
+          <!-- IMAGE 9 -->
+
+          <article class="gallery-item gallery-item-tall reveal" data-category="bouquets">
+
+            <button class="gallery-image-button" type="button" aria-label="View Soft Garden"
+              data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRug5JCORdvpsadNKAtImPqARqqgWTFbmeBISgbq5gUA&s=10"
+              data-title="Soft Garden" data-category="Bouquets">
+
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRug5JCORdvpsadNKAtImPqARqqgWTFbmeBISgbq5gUA&s=10"
+                alt="Elegant soft flower arrangement" loading="lazy">
+
+              <span class="gallery-overlay">
+
+                <span class="gallery-overlay-content">
+
+                  <small>
+                    Bouquets
+                  </small>
+
+                  <strong>
+                    Soft Garden
+                  </strong>
+
+                  <span class="view-gallery">
+                    View
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+
+                </span>
+
+              </span>
+
+            </button>
+
+          </article>
+
+        </div>
+
+
+        <!-- Empty State -->
+
+        <div class="gallery-empty" id="galleryEmpty" hidden>
+          <span>
+            <i class="fa-regular fa-face-smile"></i>
+          </span>
+
+          <h3>
+            A little pause in the garden.
+          </h3>
+
+          <p>
+            No flowers are waiting in this category
+            just yet.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+             GALLERY QUOTE
+        ================================================== -->
+
+    <section class="gallery-quote section-space">
+
+      <div class="gallery-container">
+
+        <div class="quote-card reveal">
+
+          <div class="quote-flower quote-flower-left">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+
+          <div class="quote-content">
+
+            <span class="quote-mark">
+              “
+            </span>
+
+            <blockquote>
+              Flowers are little reminders
+              that beautiful things can grow
+              from simple moments.
+            </blockquote>
+
+            <span class="quote-brand">
+              Floréa
+            </span>
+
+          </div>
+
+          <div class="quote-flower quote-flower-right">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+             FINAL CTA
+        ================================================== -->
+
+    <section class="gallery-final">
+
+      <div class="gallery-final-decoration decoration-one"></div>
+      <div class="gallery-final-decoration decoration-two"></div>
+
+      <div class="gallery-container">
+
+        <div class="gallery-final-content reveal">
+
+          <span class="mini-label">
+            Ready to create your moment?
+          </span>
+
+          <h2>
+            Let's make something
+            <em>beautiful.</em>
+          </h2>
+
+          <p>
+            Choose a bouquet or tell us what you
+            have in mind. We'll help turn your idea
+            into flowers worth remembering.
+          </p>
+
+          <div class="gallery-final-actions">
+
+            <a href="bouquets.html" class="gallery-primary-btn">
+              Explore Bouquets
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="custom-orders.html" class="gallery-secondary-btn">
+              Create Something Custom
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+  <footer class="footer">
+
+    <div class="footer-main">
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="footer-logo">
+
+          <i class="fa-solid fa-seedling"></i>
+
+          <span>
+            Flor<span>é</span>a
+          </span>
+
+        </a>
+
+        <p>
+          Beautifully arranged flowers for the moments
+          worth remembering.
+        </p>
+
+        <div class="footer-social">
+
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" aria-label="Pinterest">
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+
+          <a href="#" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Explore</h3>
+
+        <a href="bouquets.html">
+          Bouquets
+        </a>
+
+        <a href="occasion.html">
+          Occasions
+        </a>
+
+        <a href="custom-orders.html">
+          Custom Orders
+        </a>
+
+        <a href="gallery.html">
+          Gallery
+        </a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Floréa</h3>
+
+        <a href="about.html">
+          Our Story
+        </a>
+
+        <a href="reviews.html">
+          Reviews
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+
+        <a href="faq.html">
+          FAQs
+        </a>
+
+      </div>
+
+
+      <div class="footer-column footer-contact">
+
+        <h3>Let's Connect</h3>
+
+        <a href="mailto:hello@florea.com">
+          <i class="fa-regular fa-envelope"></i>
+          hello@florea.com
+        </a>
+
+        <a href="tel:+919876543210">
+          <i class="fa-solid fa-phone"></i>
+          +91 98765 43210
+        </a>
+
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          Nellore, Andhra Pradesh, India
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        © <span id="currentYear"></span> Floréa.
+        All rights reserved.
+      </p>
+
+      <div class="footer-legal">
+
+        <a href="privacy.html">
+          Privacy
+        </a>
+
+        <a href="terms.html">
+          Terms
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =====================================================
+         LIGHTBOX
+    ====================================================== -->
+
+  <div class="gallery-lightbox" id="galleryLightbox" aria-hidden="true">
+
+    <div class="lightbox-backdrop" data-close-lightbox></div>
+
+    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="Gallery image viewer">
+
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image viewer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+
+      <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+
+      <div class="lightbox-image-wrap">
+
+        <img src="" alt="" id="lightboxImage">
+
+      </div>
+
+
+      <button class="lightbox-arrow lightbox-next" id="lightboxNext" type="button" aria-label="Next image">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+
+      <div class="lightbox-caption">
+
+        <span id="lightboxCategory">
+          Bouquets
+        </span>
+
+        <h3 id="lightboxTitle">
+          Flower Arrangement
+        </h3>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+         SCRIPTS
+    ====================================================== -->
+
+  <script src="js/script.js"></script>
+  <script src="js/gallery.js"></script>
+
+</body>
+
+</html>
